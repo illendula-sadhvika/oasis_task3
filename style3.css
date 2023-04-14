@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kalam', cursive;
+}
+main {
+    height: 100vh;
+    background-image:url("bg3.jpg");
+    background-position:center;
+    background-size: cover;
+}
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px; 
+}
+h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: rgb(68, 80, 81);
+    text-shadow: 2px 2px 4px black;
+    text-decoration-line: underline;;
+    text-underline-offset: 10px;
+    text-decoration-color:cadetblue;
+    text-decoration-thickness:2px;
+    text-decoration-style: solid;
+    font-weight: 300;
+}
+.TempInput {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: 400;
+    border: solid rgb(88, 85, 85);
+    border-width: 5px;
+    border-style:solid;
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(13, 13, 13, 0.397);
+    text-decoration-style: solid;
+    box-shadow: 5px 10px #888888;
+}
+.input {
+    margin: 40px;
+    display:list-item;
+    appearance: none;
+    background: none;
+    background-color: #FFF;
+    border-radius: 30px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 30px;
+    font-weight: 400;
+}
+.input:focus {
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.2);
+}
